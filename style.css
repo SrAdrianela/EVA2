@@ -1,0 +1,68 @@
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; 
+        }
+
+
+        
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+            background-image: url("https://static.vecteezy.com/system/resources/previews/016/465/814/non_2x/hands-holding-ice-cream-set-asian-food-animal-shaped-ice-cream-chicken-frog-rabbit-koala-bear-appetizer-horizontal-banner-vector.jpg");
+            background-size: cover; 
+        }
+
+
+        
+        .contenido {
+            text-align: center; 
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px; 
+            max-width: 600px; 
+            border-radius: 10px; 
+        }
+
+
+        
+        .titulo {
+            color: black;
+            background-color: burlywood;
+            font-size: 48px; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+        }
+
+
+        
+        .nosotros {
+            padding: 20px;
+            background-color: rgba(222, 135, 183, 0.37);
+        }
+
+
+        
+        .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: red; 
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+
+        
+        .boton:hover {
+            background-color: #ff008c; 
+        }
+    </style>
